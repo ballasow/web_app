@@ -3,7 +3,7 @@ import { axiosInstance } from "./axios"
 // Récupère les statistiques du dashboard admin
 export const getDashboardStats = async () => {
     try {
-        const response = await axiosInstance.get('/admin/dashboard-stats');
+    const response = await axiosInstance.get('/ISTA/api/admin/dashboard-stats');
         return response.data;
     } catch (error) {
         console.log(error);
