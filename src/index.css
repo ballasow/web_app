@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+/* Utilitaires pour Navbar pro */
+.nav-btn {
+  @apply px-3 py-2 rounded-lg font-medium text-gray-700 hover:text-blue-700 hover:bg-blue-50 transition flex items-center;
+}
+.dropdown-btn {
+  @apply px-4 py-2 text-gray-700 hover:bg-blue-50 transition flex items-center;
+}
